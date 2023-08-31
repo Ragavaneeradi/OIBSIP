@@ -1,74 +1,683 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
+    <link rel="stylesheet" href="folio.css">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Temperature Converter</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="OBSISTAK2.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RAGAVENDRA NEERADI - Portfolio</title>
+    <link rel="icon" href="https://img.freepik.com/free-vector/hacker-operating-laptop-cartoon-icon-illustration-technology-icon-concept-isolated-flat-cartoon-style_138676-2387.jpg?size=338&ext=jpg&ga=GA1.2.250857997.1689683878&semt=ais">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="css/dasdezine.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
 </head>
 
-<body>
-    <div id="bg-container">
+<body id="page-top" class="index">
+    <!-- Navigation -->
+    <!-- Navigation -->
+    <!-- Header -->
+    <!-- Header -->
+    <header>
         <div class="container">
-            <h1>Temperature Converter</h1>
-            <div class="input-container">
-                <input type="number" id="temperature" placeholder="Enter temperature" required>
-                <select id="unit">
-                    <option value="celsius">Celsius (°C)</option>
-                    <option value="fahrenheit">Fahrenheit (°F)</option>
-                    <option value="kelvin">Kelvin (K)</option>
-                </select>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="image-container">
+                        <img class="img-responsive" id="profile-image" src="https://i.ibb.co/yXqwhbz/Ragava-Full-Stack-Developer-removebg-preview.png" alt="glasses image" title="geek loves glasses">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="intro-text">
+                        <span class="name">NEERADI RAGAVENDRA</span>
+                        <span class="skills">FULL-STACK DEVELOPER</span>
+                        <hr class="star-light">
+                    </div>
+                </div>
             </div>
-            <button class="custom-btn btn-6" id="convert"><span>Convert</span></button>
-            <div class="result" id="result"></div>
         </div>
+
+    </header>
+
+
+    <!-- My Likes Grid Section -->
+    <section id="myLikes">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>What I Do</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col-sm-4 portfolio-item ">
+                    <a href="#" class="portfolio-link text-center" data-toggle="modal">
+                        <span class="fa fa-fw fa-headphones" aria-hidden="true" title="This symbolizes I Love to listen good music
+                        "></span>
+                    </a>
+                    <article class="portfolio-item-One">
+                        <header>
+                            <h3>Music Enthusiast</h3>
+                        </header>
+                        <p id="music-para">
+                            In the midst of debugging, brainstorming new project ideas, or crafting elegant solutions, music has been my steadfast companion.
+                            The melodies and lyrics have a unique ability to transport me to a different mindset, allowing me to approach challenges from fresh perspectives.
+                        </p>
+                    </article>
+                </div>
+
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#" class="portfolio-link text-center" data-toggle="modal">
+                        <img src="https://i.ibb.co/W6ycr72/Screenshot-2023-08-18-193054-removebg-preview.png" class="fa fa-fw fa-headphones" aria-hidden="true" />
+
+                    </a>
+                    <article class="portfolio-item-One">
+                        <header>
+                            <h3>Developing websites</h3>
+                        </header>
+                        <p>
+                            As a passionate full-stack developer, I take pride in crafting dynamic and engaging web applications that seamlessly integrate
+                            front-end and back-end technologies. With a holistic understanding of the entire development process, I'm able to create end-to-end
+                            solutions that deliver exceptional user experiences and robust functionality.
+                        </p>
+                    </article>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#" class="portfolio-link text-center" data-toggle="modal">
+                        <span class="fa fa-fw fa-camera-retro" aria-hidden="true" title="This symbolizes I Love to capture moments
+                        "></span>
+                    </a>
+                    <article class="portfolio-item-Three">
+                        <header>
+                            <h3>photography</h3>
+                        </header>
+                        <p>
+                            I Love to capture beautiful moments. life deep v austin schlitz drinking vinegar, messen ger bag slow-carb. Migas tumblr kombucha you probably hav en't heard of them +1 chicharrones. Tilde wayfarers craft beer stumptown, humblebrag ugh whatever.
+                        </p>
+                    </article>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <div>
+        <hr class="loc-hr">
     </div>
-    <script src="script.js"></script>
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>PRoJECTS</h2>
+                    <!--language's logo's scrolling section-->
+                    <div id="language-scroll">
+                        <marquee direction="left" scrollamount="15">
+                            <div class="language-logo"><img src="https://th.bing.com/th/id/OIP.fmkiygkWKCub1SL0SJPvQQAAAA?pid=ImgDet&rs=1" alt="Language Logo 1"></div>
+                            <div class="language-logo"><img src="https://www.somkiat.cc/wp-content/uploads/2021/07/vscode.png" alt="Language Logo 1"></div>
+                            <div class="language-logo"><img src="https://www.icreatemagazine.nl/app/uploads/2023/01/chat-gpt-gebruiken.jpg" alt="Language Logo 1"></div>
+                            <div class="language-logo"><img src="https://th.bing.com/th/id/OIP.tAvAD5lCtDJSjywplxd37QHaEo?w=305&h=190&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Language Logo 2"></div>
+                            <div class="language-logo"><img src="https://th.bing.com/th/id/OIP.tAvAD5lCtDJSjywplxd37QHaEo?w=305&h=190&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Language Logo 2"></div>
+                            <div class="language-logo"><img src="https://th.bing.com/th/id/OIP.udRsxeiTDWCEXRaKP_prTAHaHk?w=200&h=204&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Language Logo 2"></div>
+                            <div class="language-logo"><img src="https://th.bing.com/th/id/OIP.ASQc6gawlqyQRhkENTvWiAHaEo?w=279&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Language Logo 2"></div>
+                            <div class="language-logo"><img src="https://pngimg.com/uploads/php/php_PNG26.png" alt="Language Logo 2"></div>
+                        </marquee>
+                        <!-- Add more language logos as needed -->
+                    </div>
+
+
+                    <hr class="star-primary">
+
+
+                    <!--projects-cards-begins from here-->
+                    <!--projects-cards-starts from here-->
+                    <div class="pj-section-container">
+
+                        <div class="pj-container" id="projects-card-containers">
+                            <!--aichatbor-project-card-->
+
+                            <div class="pj-card-1 ml-5">
+                                <div class="face face1">
+                                    <div class="content">
+                                        <i class="fas fa-robot"></i>
+                                        <h3>AI chatBot Project</h3>
+                                    </div>
+                                </div>
+                                <div class="face face2">
+                                    <div class="content">
+                                        <p id="description">
+                                            The AI Chatbot project embodies my commitment to crafting intelligent and user-centric solutions.
+                                            Through intricate algorithms and advanced programming, I have developed a chatbot that can engage in meaningful conversations, answer queries, and provide assistance on a wide range of topics.
+                                            By leveraging natural language processing techniques,
+                                            the chatbot can comprehend user input, interpret context, and deliver accurate responses in real-time.
+                                        </p>
+                                        <!--ai-chat-bot-link-->
+                                        <a href="https://ragavaaichatbot.ccbp.tech/" type="button" id="projects-btn">Project_Link</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--foodcourt-project-card-->
+                            <div class="pj-card-1 ml-5">
+                                <div class="face face1">
+                                    <div class="content">
+                                        <i class="fas fa-utensils"></i>
+                                        <h3>FOOD Munch Project</h3>
+                                    </div>
+                                </div>
+                                <div class="face face2">
+                                    <div class="content">
+                                        <p id="description">
+                                            Online Food Court project was an ambitious undertaking aimed at revolutionizing the way food services are managed within the university campus.
+                                            The primary objective was to create an intuitive online platform that would seamlessly connect students, faculty, and
+                                            staff with a diverse range of culinary options, enhancing convenience and choice while streamlining operations.
+                                        </p>
+                                        <!--food-court-project-link-->
+                                        <a href="https://foodsproject.ccbp.tech/" type="button" id="projects-btn">Project_Link</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--aiTalkBot-project-card-->
+                            <div class="pj-card-1 ml-5">
+                                <div class="face face1">
+                                    <div class="content">
+                                        <i class="fas fa-microchip"></i>
+                                        <h3>AI-Powered Voice-Enabled Talk Bot</h3>
+                                    </div>
+                                </div>
+                                <div class="face face2">
+                                    <div class="content">
+                                        <p id="description">
+                                            Imagine a virtual assistant that not only responds intelligently to user input but also does so using my natural voice.
+                                            This talk bot project represents the culmination of my dedication to both AI development and voice modulation. By integrating these two domains, I've brought to
+                                            life a talk bot that captures the essence of natural conversation, making interactions more engaging and lifelike.
+                                        </p>
+                                        <!--aitalk-bot-project-link-->
+                                        <a href="https://ragavaaitalkbot.ccbp.tech/]?Talk" type="button" id="projects-btn">Project_Link</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--wikipedia-project-card-->
+                            <div class="pj-card-1 ml-5">
+                                <div class="face face1">
+                                    <div class="content">
+                                        <i class="fab fa-wikipedia-w"></i>
+                                        <h3>Wikipedia Project Accomplishment</h3>
+                                    </div>
+                                </div>
+                                <div class="face face2">
+                                    <div class="content">
+                                        <p id="description">
+                                            I am thrilled to share that I have successfully completed a comprehensive Wikipedia project as part of my learning journey.
+                                            This project allowed me to delve into the world of collaborative knowledge creation, research, and content curation.
+                                            Through meticulous research, writing, and editing,
+                                            I contributed to the enrichment of Wikipedia's vast repository of information.
+                                        </p>
+                                        <!--wikipedia-project-link-->
+                                        <a href="https://ragavawiki.ccbp.tech/" type="button" id="projects-btn">Project_Link</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--udcrigistrationform-project-card-->
+                            <div class="pj-card-1 ml-5">
+                                <div class="face face1">
+                                    <div class="content">
+                                        <i class="fas fa-id-card icon"></i>
+                                        <h3>Seminar Registrationform Project</h3>
+                                    </div>
+                                </div>
+                                <div class="face face2">
+                                    <div class="content">
+                                        <p id="description">
+                                            I am thrilled to share that I have successfully designed and developed a dynamic Seminar Registration Webpage as part of my college project.
+                                            This project allowed me to combine
+                                            my passion for web development with my interest in creating practical solutions that streamline processes.
+                                        </p>
+                                        <!--udc-project-link-->
+                                        <a href="https://pseminarwebpage.ccbp.tech/" type="button" id="projects-btn">Project_Link</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--shoescart-project-->
+                            <div class="pj-card-1 ml-5">
+                                <div class="face face1">
+                                    <div class="content">
+                                        <i class="fas fa-cart-shopping"></i>
+                                        <h3>Shoe Cart Website</h3>
+                                    </div>
+                                </div>
+                                <div class="face face2">
+                                    <div class="content">
+                                        <p id="description">
+                                            In this project, I designed and developed a fully functional e-commerce website focused on shoes.
+                                            Leveraging my skills in HTML, CSS, and JavaScript,
+                                            I created an engaging user experience that allows visitors to explore a wide range of
+                                            shoes and easily add them to their shopping carts.
+                                        </p>
+                                        <!--shoos-cart-project-link-->
+                                        <a href="https://cartjavascript.ccbp.tech/" type="button" id="projects-btn">Project_Link</a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!--flats-website-project-card-->
+                            <div class="pj-card-1 ml-5">
+                                <div class="face face1">
+                                    <div class="content">
+                                        <i class="fas fa-cart-shopping"></i>
+                                        <h3>Flats-Website</h3>
+                                    </div>
+                                </div>
+                                <div class="face face2">
+                                    <div class="content">
+                                        <p id="description">
+                                            Step into a world of luxurious living and contemporary design with [Ragava flats].
+                                            We are proud to present a meticulously crafted residential haven that combines comfort, style, and convenience.
+                                            Our carefully designed flats offer a range of 2BHK and 3BHK rooms that cater to your unique lifestyle needs.
+                                        </p>
+                                        <!--flats-project-link-->
+                                        <a href="https://flatsprojects.ccbp.tech/" type="button" id="projects-btn">Project_Link</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--gues game-project-card-->
+                            <div class="pj-card-1 ml-5">
+                                <div class="face face1">
+                                    <div class="content">
+                                        <i class="fal fa-gamepad-modern"></i>
+                                        <h3>JavaScript Guess Game</h3>
+                                    </div>
+                                </div>
+                                <div class="face face2">
+                                    <div class="content">
+                                        <p id="description">
+                                            In this project, I designed and implemented a captivating guess game using JavaScript.
+                                            The game challenges players to guess a randomly selected number within a defined range.
+                                            Through the creative use of HTML, CSS, and JavaScript,
+                                            I crafted an interactive and user-friendly interface that enhances the gaming experience.
+                                        </p>
+                                        <!--flats-project-link-->
+                                        <a href="https://guessgaming.ccbp.tech/" type="button" id="projects-btn">Project_Link</a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+                        <!--project-cards-ends-here-->
+
+                    </div>
+                    <!--script-for-languages-logo's-scrollings-->
+                    <script src="path-to-your-js-file.js"></script>
+
+
+                    <!--cirtification-container-heading-->
+                    <div id="cirtification-container">
+                        <div class="content">
+                            <h1 class="title">Cirtification's
+                                <div class="aurora">
+                                    <div class="aurora__item"></div>
+                                    <div class="aurora__item"></div>
+                                    <div class="aurora__item"></div>
+                                    <div class="aurora__item"></div>
+                                </div>
+                            </h1>
+                        </div>
+
+                        <!--cirtification-cards/carousels-->
+                        <section id="certifications mt-3">
+                            <div class="container">
+                                <marquee scrollamount="13" direction="left">
+                                    <div class="certifications-list">
+                                        <!--Image-of-HalfFame NXTWAVE-->
+                                        <div class="certification">
+                                            <img src="https://media.licdn.com/dms/image/sync/D5627AQHsGXBksFidRw/articleshare-shrink_800/0/1691162073434?e=1693321200&v=beta&t=k_unO5Y-s8A_s_Hi8NEXQZrXzHyx0mfUBU67Zy-Lu4Y" alt="Certification 1">
+                                        </div>
+                                        <!--image-of genai participation-->
+                                        <div class="certification">
+                                            <img src="https://media.licdn.com/dms/image/D5622AQG5x_591E_TUw/feedshare-shrink_2048_1536/0/1691419102586?e=1695859200&v=beta&t=gMkqvkcbYLd7vU4x5_ve8e5gj3xWxpJmWJwuRY0Hzi8" alt="Certification 1">
+                                        </div>
+                                        <!--image of aiproject-completation-->
+                                        <div class="certification">
+                                            <img src="https://media.licdn.com/dms/image/D5622AQEcQea4Rppt-g/feedshare-shrink_2048_1536/0/1691584558359?e=1695859200&v=beta&t=Zo-kNxBqEBRWWYR3OZEv_8Zefhsf7rYKoVNtYzv5p7o" alt="Certification 2">
+                                        </div>
+                                        <!--Image-of-AvodhaPHPFullStackDevelopment-->
+                                        <div class="certification">
+                                            <img src="https://media.licdn.com/dms/image/D5622AQGxWQjelU9Sqw/feedshare-shrink_2048_1536/0/1692715028866?e=1695859200&v=beta&t=E5ynW4D1jTJUPyK3At7oHwc_FqaGD_iH8CBs3EW3L6Y" alt="Certification 1">
+                                        </div>
+                                        <!--image-of-attending masterclass with APPLE-->
+                                        <div class="certification">
+                                            <img src="https://media.licdn.com/dms/image/D5622AQF4JBlx3v0B-g/feedshare-shrink_2048_1536/0/1689089384491?e=1695859200&v=beta&t=o5F4fyTNanObKdQPORwshHi5gfuGr0pkrehH9FKXuB8" alt="Certification 2">
+                                        </div>
+                                        <!--Image-of- Build STATIC WEBSITE-->
+                                        <div class="certification">
+                                            <img src="https://media.licdn.com/dms/image/D5622AQFgYM3VfO0-QQ/feedshare-shrink_800/0/1679898140752?e=1695859200&v=beta&t=DE8fVlhIXMY6efNWBejLchUm8bW820KRlhlUYecm50I" alt="Certification 1">
+                                        </div>
+                                        <!--Image-of-MasterClassWith-Meeso Lead SE-->
+                                        <div class="certification">
+                                            <img src="https://media.licdn.com/dms/image/D5622AQHoJaBuqfAUzg/feedshare-shrink_800/0/1679898140700?e=1695859200&v=beta&t=jLQ5fs1fqwsBwWBAYKWQjnp4f-82bcLfpt24aEp0xWw" alt="Certification 1">
+                                        </div>
+                                        <!--image-of-linkedIn-learning AI-->
+                                        <div class="certification">
+                                            <img src="https://media.licdn.com/dms/image/sync/D5622AQHB3dBA5emLmg/feedshare-shrink_800/0/1688914992187?e=1695859200&v=beta&t=yznGINvAP9GVpeobyhzeLN0JvzSz1Qluq8es_SoptSw" alt="Certification 2">
+                                        </div>
+                                        <!--image-of-DataScience101 MasterClass-->
+                                        <div class="certification">
+                                            <img src="https://media.licdn.com/dms/image/D5622AQEHOH85ZzD0Bg/feedshare-shrink_2048_1536/0/1692278597887?e=1695859200&v=beta&t=_SuxfG9igbDcs7uce9NyNNYQUZMrcr3r5Y3E1AXCICk" alt="Certification 2">
+                                        </div>
+                                        <!--image-of-Edureka! Internship progream-->
+                                        <div class="certification">
+                                            <img src="https://media.licdn.com/dms/image/D5622AQHkh_k_mJL53w/feedshare-shrink_2048_1536/0/1687272528366?e=1695859200&v=beta&t=va8gsH0T_ly8BRXZhUMI7BMcYLqOcB1lq39nW_3LMv0" alt="Certification 2">
+                                        </div>
+                                </marquee>
+                                <!-- Add more certification divs as needed -->
+                            </div>
+                    </div>
+    </section>
+    <div class="modal" id="imageModal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
+
+    </div>
+    <!--cirtification-container-heading-->
+
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>About me</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 center-block about-item">
+                    <article class="about-item-One">
+                        <img src="https://th.bing.com/th/id/R.b375b0ebb0dace4ae34d2cbc9d0befce?rik=%2bOLbQh8pd3qmdg&riu=http%3a%2f%2fimages.clipartpanda.com%2fambition-clipart-k0401910.jpg&ehk=RJRFjaC%2fjcljG9ed5%2fCotaXN8%2fFgjUyU5P6M3NF55x0%3d&risl=&pid=ImgRaw&r=0" style="height: 10vh;">
+                        <header>
+                            <h3>Ambition</h3>
+                        </header>
+                        <p>
+                            I am a passionate and ambitious individual who embarked on the path of becoming a full-stack developer with a determination to grow and evolve in the ever-evolving tech landscape. As a trainee, I've immersed myself in both front-end and back-end technologies, gaining practical experience and hands-on skills that will shape my career in web development. </p>
+                    </article>
+                </div>
+                <div class="col-sm-4 about-item ">
+
+                    <img src="https://res.cloudinary.com/dasdezine/image/upload/v1458052396/illustrator_a9kxav.png" class="img-responsive" alt="">
+
+                    <article class="about-item-Two">
+                        <header>
+                            <img src="https://img.freepik.com/premium-vector/e-learning-education-online-training-courses_6280-540.jpg?w=740" style="height: 10vh;">
+                            <h3>Learning as a Way of Life</h3>
+                        </header>
+                        <p>
+                            My journey as a full-stack developer trainee is a testament to my unyielding thirst for knowledge. I find joy in embracing new challenges, diving into unfamiliar technologies, and understanding how the pieces of the development puzzle fit together. Learning isn't just a phase for me; it's a continuous process that fuels my growth and creativity. </p>
+                    </article>
+                </div>
+                <div class="col-sm-4 about-item ">
+
+                    <img src="https://res.cloudinary.com/dasdezine/image/upload/v1458052396/knit_b0ngnp.png" class="img-responsive" alt="">
+
+                    <article class="about-item-Three">
+                        <img src="https://img.freepik.com/premium-vector/referral-marketing-network-business-flat-design-concept_7087-1640.jpg?w=740" style="height:10vh;">
+                        <header>
+                            <h3>75%</h3>
+                            <h3>Empowering User Experiences</h3>
+                        </header>
+                        <p>
+                            The heart of my passion lies in creating user-centric experiences that empower and engage. Whether it's a seamless e-commerce platform, a user-friendly task management app, or an immersive blog platform, I believe that technology should enhance and simplify people's lives. This philosophy drives every project I undertake.
+                        </p>
+                    </article>
+                </div>
+            </div>
+            <div class="text-center btn-style double-line">
+                <div class="btn-styleLine">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container" id="contact-container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Contact Me</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row form-padding">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Name</label>
+                                <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Email Address</label>
+                                <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Message</label>
+                                <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="contact-btn text-center btn-style">
+                            <div class="btn-styleLine double-line page-scroll">
+                                <a href="https://www.linkedin.com/in/neeradi-ragavendra-72656025b/" class="btn btn-lg btn-outline">
+                                    <i class="fa fa-fw fa-paper-plane"></i>Send By LinkedIn
+                                </a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3>Location</h3>
+                        <p>NIZAMABAD 503230<br>Telangana, India</p>
+                    </div>
+
+                    <div class="footer-col col-md-4">
+                        <h3>Contact Info</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="tel:+91 7993324174" class="btn-social btn-outline" alt="My Phone number" title="+91 9051314800">
+                                    <i class="fa fa-fw fa-phone" aria-hidden="true"></i>
+                                    <span class="sr-only">My Phone number</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mailto:ragavendraragava33@gmail.com" class="btn-social btn-outline" alt="My E-mail ID" title="My E-mail ID">
+                                    <i class="fa fa-fw fa-envelope" aria-hidden="true"></i>
+                                    <span class="sr-only">My E-mail</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <p>If you want to hire me please use phone contact or my E-mail.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        created by NEERADI RAGAVENDRA👨‍💻
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll visible-xs visible-sm">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+
+    <!--making responsive-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+
+    <!--//-->
+    <!-- jQuery -->
+    <!-- JavaScript Dependencies -->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+    <script src="js/freelancer.js"></script>
+
+    //
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/freelancer.js"></script>
+
+
+
+
+    <!--cirtification-script-->
+    <script src="path-to-your-js-file.js"></script>
+
+    <script src="path-to-your-js-file.js"></script>
+
     <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            const temperatureInput = document.getElementById("temperature");
-            const unitSelect = document.getElementById("unit");
-            const convertButton = document.getElementById("convert");
-            const resultDiv = document.getElementById("result");
-            const bgContainer = document.getElementById("bg-container");
+        //cirtification javascript//
+        document.addEventListener('DOMContentLoaded', function() {
+            const certifications = document.querySelectorAll('.certification');
+            const modal = document.getElementById('imageModal');
+            const modalImage = document.getElementById('modalImage');
+            const modalClose = document.querySelector('.close');
 
-            convertButton.addEventListener("click", function() {
-                const temperature = parseFloat(temperatureInput.value);
-                const unit = unitSelect.value;
-                let convertedTemperature;
-                let resultUnit;
+            certifications.forEach((certification) => {
+                certification.addEventListener('click', () => {
+                    modal.style.display = 'block';
+                    modalImage.src = certification.querySelector('img').src;
+                });
+            });
 
-                if (isNaN(temperature)) {
-                    resultDiv.textContent = "Please enter a valid number.";
-                    return;
-                }
+            modalClose.addEventListener('click', () => {
+                modal.style.display = 'none';
+            });
 
-                if (unit === "celsius") {
-                    convertedTemperature = (temperature - 32) * (5 / 9);
-                    resultUnit = "°C";
-                } else if (unit === "fahrenheit") {
-                    convertedTemperature = (temperature * 9 / 5) + 32;
-                    resultUnit = "°F";
-                } else if (unit === "kelvin") {
-                    convertedTemperature = temperature + 273.15;
-                    resultUnit = "K";
-                }
-
-                resultDiv.textContent = `Converted Temperature: ${convertedTemperature.toFixed(2)} ${resultUnit}`;
-
-                // Change background image based on temperature
-                if (convertedTemperature < 0) {
-                    bgContainer.style.backgroundImage = "url('https://img.freepik.com/free-photo/3d-snowy-winter-landscape_1048-11056.jpg?w=740&t=st=1693404438~exp=1693405038~hmac=17b71d58b9b8e09e089b7c58415ac95f931e3149b0f216f2d684d6ac83ceba3f')";
-                } else if (convertedTemperature >= 0 && convertedTemperature <= 20) {
-                    bgContainer.style.backgroundImage = "url('https://img.freepik.com/free-photo/beautiful-scenery-summit-mount-everest-covered-with-snow-white-clouds_181624-21317.jpg?w=1060&t=st=1693404080~exp=1693404680~hmac=43e63865cfe1ef8c1e889990e766c778afd8859db01a7b9101aa0a39b9cb0941')";
-                } else {
-                    bgContainer.style.backgroundImage = "url('https://img.freepik.com/free-vector/gradient-summer-background-videocalls_52683-63099.jpg?w=1060&t=st=1693404108~exp=1693404708~hmac=ee13f30629c0880f8a6bff0a225f2c0954f35fc1c3ee622fa287ac130dffdedd')";
+            window.addEventListener('click', (event) => {
+                if (event.target === modal) {
+                    modal.style.display = 'none';
                 }
             });
         });
+
+        /// Optional JavaScript to highlight the certification being viewed
+        const certifications = document.querySelectorAll('.certification');
+        certifications.forEach((certification, index) => {
+            certification.addEventListener('click', () => {
+                certifications.forEach(cert => cert.classList.remove('active'));
+                certification.classList.add('active');
+            });
+        });
+        //
+        /*!
+         * Start Bootstrap - Freelancer Bootstrap Theme (https://startbootstrap.com)
+         * Code licensed under the Apache License v2.0.
+         * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+         */
+
+        // jQuery for page scrolling feature - requires jQuery Easing plugin
+        $(function() {
+            $('body').on('click', '.page-scroll a', function(event) {
+                var $anchor = $(this);
+                $('html, body').stop().animate({
+                    scrollTop: $($anchor.attr('href')).offset().top
+                }, 1500, 'easeInOutExpo');
+                event.preventDefault();
+            });
+        });
+
+        // Floating label headings for the contact form
+        $(function() {
+            $("body").on("input propertychange", ".floating-label-form-group", function(e) {
+                $(this).toggleClass("floating-label-form-group-with-value", !!$(e.target).val());
+            }).on("focus", ".floating-label-form-group", function() {
+                $(this).addClass("floating-label-form-group-with-focus");
+            }).on("blur", ".floating-label-form-group", function() {
+                $(this).removeClass("floating-label-form-group-with-focus");
+            });
+        });
+
+        // Highlight the top nav as scrolling occurs
+        $('body').scrollspy({
+            target: '.navbar-fixed-top'
+        })
+
+        // Closes the Responsive Menu on Menu Item Click
+        $('.navbar-collapse ul li a').click(function() {
+            $('.navbar-toggle:visible').click();
+        });
+
+
+
+        //language's logo's scrolling javascript//
+        // Optional JavaScript for scrolling effect
+        const languageScroll = document.getElementById('language-scroll');
+
+        function scrollLanguages() {
+            const scrollAmount = 2; // Adjust the scrolling speed
+            languageScroll.scrollLeft += scrollAmount;
+        }
+
+        setInterval(scrollLanguages, 50); // Adjust the interval for smooth scrolling
     </script>
+
 </body>
 
 </html>
